@@ -2524,13 +2524,15 @@ Cover
 }
 .price_box .price_header h6 {
   font-size: 14px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;
+  */
   color: #838383;
   font-weight: 400;
 }
 .price_box .price_tag {
   padding: 15px 0;
-  text-transform: capitalize;
+  /*text-transform: capitalize;
+  */
   color: #18181c;
   font-size: 48px;
   font-weight: 700;
@@ -2549,7 +2551,7 @@ Cover
 }
 .price_box .price_features ul li {
   padding: 7px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
 }
 .price_box .price_footer {
