@@ -1971,6 +1971,7 @@ footer .newsletter_form .form-control {
 /*  ----------------------------------------------------
 Cover
 -------------------------------------------------------- */
+
 .home-cover {
   position: relative;
 }
@@ -2035,7 +2036,7 @@ Cover
   font-size: 90px;
   font-weight: 900;
   line-height: 1.1;
-  color: #2F6499;
+  color: #2f6499;
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
   -webkit-transition: all 0.4s 600ms ease-in-out;
@@ -2195,7 +2196,7 @@ Cover
   width: 100%;
   top: 0;
   bottom: 0;
-  background-color: rgba(31, 31, 32, 0.6);
+  background-color: rgba(31, 31, 32,0.6);
 }
 .inner_cover .inner_cover_content {
   padding: 170px 0;
@@ -3168,4 +3169,30 @@ textarea.form-control {
 }
 .accordion_card .card-body {
   font-size: 16px;
+}
+
+/*IMPLEMENTADOS*/
+
+.slider-content-1{
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.slider-content-2{
+  background-color: rgba(255, 255, 255, 0);
+  margin: 25px;
+  align-content: center;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.texto-tema{
+  line-height: 1.1;
+  color: #2F6499;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 0.4s 600ms ease-in-out;
+  transition: all 0.4s 600ms ease-in-out;
 }
